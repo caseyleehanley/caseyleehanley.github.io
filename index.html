@@ -12,12 +12,12 @@
   <meta name="og:description" content="Programmer by Day, and Sometimes by Night"/>
   <meta name="twitter:card" content="summary"/>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="alternate" href="/feed.rss" type="application/rss+xml" title="Subscribe to Casey Hanley"/>
+  <!-- <link rel="alternate" href="/feed.rss" type="application/rss+xml" title="Subscribe to Casey Hanley"/> -->
   <meta name="twitter:image" content="https://caseyhanley.com/logo.png"/>
   <meta name="og:image" content="https://caseyhanley.com/logo.png"/>
   <link rel="canonical" href="https://caseyhanley.com"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  <link href="/output.css" rel="stylesheet">
   <link rel="me" href="https://mastodon.social/@caseyhanley">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -26,11 +26,12 @@
     <div class="max-w-3xl space-y-2 w-full flex flex-col">
       <header class="flex flex-col sm:flex-row sm:flex-row-reverse justify-between text-sm md:text-base">
         <div class="flex justify-end mb-8 sm:mb-8 sm:mb-0 gap-2 h-full items-center font-medium font-mono-custom">
-          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="./about.html">About</a></div>
-          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="./contact.html">Contact</a></div>
-          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="./archive.html">Archive</a></div>
+          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="/about.html">About</a></div>
+          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="/contact.html">Contact</a></div>
+          <div><a class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="/archive.html">Archive</a></div>
+          <div><a type="application/atom+xml" class="cursor-pointer px-2 py-1 hover:bg-slate-200 dark:hover:bg-slate-700 rounded" href="/feeds/main.xml">RSS</a></div>
         </div>
-        <a class="cursor-pointer" href="./">
+        <a class="cursor-pointer" href="/">
           <div class="space-y-2">
             <h1 class="text-4xl md:text-5xl font-black font-mono-custom">
               Casey Hanley
@@ -43,7 +44,34 @@
       </header>
       
       <main class="flex-grow w-full h-full text-center align-middle" style="font-family: -apple-system, Helvetica;">
-        <hr class="mb-10 mt-8 sm:mt-10 border-yellow-500" style="border-width: .2rem;" />
+        <hr class="mb-10 sm:mb-12 mt-8 sm:mt-10 border-yellow-500" style="border-width: .2rem;" />
+
+        <div class="text-left text-sm md:text-base">
+          <h2 class="text-2xl md:text-3xl font-bold mb-2">Building Web Services with Swift on AWS Lambda</h2>
+          <h3 class="text-gray-500 dark:text-gray-400 font-mono-custom text-sm md:text-base">December 30, 2023</h3>
+          <div class="mt-8 space-y-4">
+            <p>Lorem ipsum</p>
+            <p>Doing stuff</p>
+            <p>La dee da</p>
+            <p>Dum dee dum dee dum</p>
+          </div>
+          <div class="pb-2 mt-8">
+            <a class="cursor-pointer underline text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500" href="/posts/2023/12/30/building-web-services-with-swift-on-aws-lambda.html">Read More</a>
+          </div>
+        </div>
+        <hr class="mb-10 mt-8 sm:mt-10 border-yellow-500" style="border-width: .1rem;" />
+        <div class="text-left text-sm md:text-base">
+          <h2 class="text-2xl md:text-3xl font-bold mb-2">Hello World</h2>
+          <h3 class="text-gray-500 dark:text-gray-400 font-mono-custom text-sm md:text-base">June 6, 2022</h3>
+          <div class="mt-8 space-y-4">
+            <p>Hello, world!</p>
+            <p>Welcome to my blog.</p>
+          </div>
+          <div class="pb-2 mt-8">
+            <a class="cursor-pointer underline text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500" href="/posts/2022/06/06/hello-world.html">Read More</a>
+          </div>
+        </div>
+        <hr class="mt-10 border-yellow-500" style="border-width: .1rem;" />
       </main>
 
       <footer class="pb-10 pt-16 font-mono-custom text-gray-500 dark:text-gray-400">
