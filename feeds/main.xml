@@ -4,9 +4,9 @@
   <link rel="alternate" type="text/html" href="https://caseyhanley.com" />
   <link rel="self" type="application/atom+xml" href="https://caseyhanley.com/feeds/main" />
   <id>https://caseyhanley.com/feeds/main</id>
-  <updated>2023-12-30T10:43:17-06:00</updated>
-  <rights>Copyright © 2023 Casey Hanley</rights>
-  <entry>
+  <updated>2022-06-06T16:11:46-04:00</updated>
+  <rights>Copyright © 2024 Casey Hanley</rights>
+  <!-- <entry>
     <title>Building Web Services with Swift on AWS Lambda</title>
     <link rel="alternate" type="text/html" href="https://caseyhanley.com/posts/2023/12/30/building-web-services-with-swift-on-aws-lambda"/>
     <link rel="self" title="Hello World" href="https://caseyhanley.com/posts/2023/12/30/building-web-services-with-swift-on-aws-lambda"/>
@@ -23,7 +23,7 @@
       <p>La dee da</p>
       <p>Dum dee dum dee dum</p>
     ]]></content>
-  </entry>
+  </entry> -->
   <entry>
     <title>Hello World</title>
     <link rel="alternate" type="text/html" href="https://caseyhanley.com/posts/2022/06/06/hello-world"/>
