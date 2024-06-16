@@ -4,13 +4,13 @@
   <link rel="alternate" type="text/html" href="https://caseyhanley.com" />
   <link rel="self" type="application/atom+xml" href="https://caseyhanley.com/feeds/main" />
   <id>https://caseyhanley.com/feeds/main</id>
-  <updated>2022-06-06T16:11:46-04:00</updated>
+  <updated>2024-06-16T16:12:08-05:00</updated>
   <rights>Copyright © 2024 Casey Hanley</rights>
   <!-- <entry>
-    <title>Building Web Services with Swift on AWS Lambda</title>
-    <link rel="alternate" type="text/html" href="https://caseyhanley.com/posts/2023/12/30/building-web-services-with-swift-on-aws-lambda"/>
-    <link rel="self" title="Hello World" href="https://caseyhanley.com/posts/2023/12/30/building-web-services-with-swift-on-aws-lambda"/>
-    <id>caseyhanley.com/posts/2023/12/30/building-web-services-with-swift-on-aws-lambda</id>
+    <title>New Blog Post</title>
+    <link rel="alternate" type="text/html" href="https://caseyhanley.com/posts/2023/12/30/new-blog-post"/>
+    <link rel="self" title="Hello World" href="https://caseyhanley.com/posts/2023/12/30/new-blog-post"/>
+    <id>caseyhanley.com/posts/2023/12/30/new-blog-post</id>
     <published>2023-12-30T10:43:17-06:00</published>
     <updated>2023-12-30T10:43:17-06:00</updated>
     <author>
@@ -19,11 +19,25 @@
     </author>
     <content type="html"><![CDATA[
       <p>Lorem ipsum</p>
-      <p>Doing stuff</p>
-      <p>La dee da</p>
-      <p>Dum dee dum dee dum</p>
     ]]></content>
   </entry> -->
+  <entry>
+    <title>Swift Vapor API Starter</title>
+    <link rel="alternate" type="text/html" href="https://caseyhanley.com/posts/2024/06/16/swift-vapor-api-starter.html"/>
+    <link rel="self" title="Hello World" href="https://caseyhanley.com/posts/2024/06/16/swift-vapor-api-starter.html"/>
+    <id>caseyhanley.com/posts/2024/06/16/swift-vapor-api-starter.html</id>
+    <published>2024-06-16T16:12:08-05:00</published>
+    <updated>2024-06-16T16:12:08-05:00</updated>
+    <author>
+      <name>Casey Hanley</name>
+      <uri>https://caseyhanley.com/about</uri>
+    </author>
+    <content type="html"><![CDATA[
+      <p>I created a starter project template to help me quickly prototype new server implementation ideas using <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://www.swift.org">Swift</a>, <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://docs.vapor.codes">Vapor</a>, and <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://docs.vapor.codes/fluent/overview/">Fluent</a>. It uses code generation to quickly add new entities, provides a flexible query interface for clients by default, and uses <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://developer.apple.com/documentation/testing/">Swift Testing</a> for unit test coverage. Having just wrapped up a great week at <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://developer.apple.com/wwdc24/">WWDC24</a>, this was also a great time for me to explore what's new in <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://developer.apple.com/xcode/">Xcode 16</a> and <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://www.swift.org/install/macos/">Swift 6</a>.</p>
+      
+      <p>You can find the project <a class="cursor-pointer text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500 underline" href="https://github.com/caseyleehanley/swift-vapor-api-starter">here</a> on GitHub.</p>
+    ]]></content>
+  </entry>
   <entry>
     <title>Hello World</title>
     <link rel="alternate" type="text/html" href="https://caseyhanley.com/posts/2022/06/06/hello-world"/>
